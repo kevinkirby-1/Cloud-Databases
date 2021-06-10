@@ -1,0 +1,89 @@
+header{
+    text-align: center;
+    background-color: steelblue;
+    padding: 0.25em;
+}
+main{
+    max-width:900px;
+    margin: auto;
+    display: grid;
+}
+#newButton {
+    border: none;
+    background-color: rgb(0, 128, 58);
+    color: white;
+    padding: 0.5rem;
+    max-width: 90px;
+}
+#add-rout-form, .editForm{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin: 0.5rem;
+}
+#add-rout-form input, .editForm input{
+    padding: 0.5rem;
+    border: none;
+    background-color: rgb(239, 239, 239);
+    margin: 0.25rem;
+}
+
+#add-rout-form button, .editForm button{
+    padding: 0.5rem;
+    border: none;
+    margin: 0.25rem;
+}
+
+#add, #editSubmit{
+    background-color: rgb(0, 128, 58);
+}
+
+#cancel, #cancelEdit{
+    background-color: rgb(207, 0, 0);
+    color: white;
+}
+
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+li{
+    font-size: 1.5rem;
+    margin: 0.25rem;
+    padding: 1rem;
+    background-color: steelblue;
+    display: grid;
+    grid-template-columns: 1fr 70px;
+}
+li button{
+    border: none;
+}
+
+.details{
+    font-size: 1.25rem;
+    display: none;
+    grid-column: 1;
+}
+#delete{
+    max-width: 70px;
+    grid-row: 5;
+    grid-column: 2;
+    background-color: rgb(207, 0, 0);
+    border: none;
+    padding: 0.25rem;
+    color: white;
+}
+#edit{
+    max-width: 70px;
+    grid-row: 5;
+    border: none;
+}
+
+#add-rout-form {
+    display: none;
+}
+
+#edit-rout-form {
+    display: none;
+}
